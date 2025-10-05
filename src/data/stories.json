@@ -1,0 +1,852 @@
+{
+  "stories": [
+    {
+      "id": "flash-flanagan-croc",
+      "title": "The Wacky Magnetic Croc Adventure!",
+      "subtitle": "Flash Flanagan's Photographic Quest",
+      "description": "Join Flash Flanagan, the world's goofiest wildlife photographer, on a wacky quest to find a legendary MAGNETIC crocodile in the Pantanal wetlands!",
+      "icon": "🐊",
+      "color": "from-green-500 to-teal-600",
+      "chapters": [
+        {
+          "id": "intro",
+          "title": "Question 1: Who Holds the Data?",
+          "text": "Meet Flash Flanagan, the world's goofiest and bravest wildlife photographer, armed with a camera that's seen more action than most secret agents. One sweltering afternoon, while wrestling a toucan for a better camera angle, he heard a wacky rumor from a local mystic: a crocodile in the deepest parts of the Pantanal wetlands was... MAGNETIC! 'A Magneto-Croc!' Flash shouted, nearly dropping his telephoto lens. 'I HAVE to get a picture of it!' His challenge was clear, but finding a creature that defies physics required more than just luck. He needed information, and he knew two very different people who might have it.",
+          "animation": "map-search",
+          "choices": [
+            { "text": "Mateo, the Local Guide", "next": "path-mateo" },
+            { "text": "Dr. Aris Thorne, the Geophysicist", "next": "path-thorne" }
+          ]
+        },
+        {
+          "id": "path-mateo",
+          "title": "Question 2: The Environmental Precursor",
+          "text": "Flash chose the path of anecdotal wisdom, trusting the land over labs. He found Mateo, the legendary guide, asleep in a hammock with a capybara using his chest as a pillow. Waking him, Flash explained his quest. Mateo, a man of riddles, simply smiled. 'The river has a fever,' he whispered. 'To find your beast, you must ignore your buzzing gadgets and look for the signs the earth itself gives you.'",
+          "animation": "jungle-guide",
+          "choices": [
+            { "text": "The Resonating Stones", "next": "path-stones-q3" },
+            { "text": "The Iridescent Nests", "next": "path-nests-q3" }
+          ]
+        },
+        {
+          "id": "path-thorne",
+          "title": "Question 2: Which Theory to Pursue?",
+          "text": "Flash chose the path of quantifiable data. He met Dr. Aris Thorne in her riverside lab, a whirlwind of chaotic energy amidst humming machines. She glanced at his camera equipment and muttered, 'I hope you paid the insurance premium for atmospheric radiation.' After analyzing his story, she presented two competing, mind-bending theories for the Magneto-Croc's existence.",
+          "animation": "science-lab",
+          "choices": [
+            { "text": "The Geomagnetic Anomaly Theory", "next": "path-anomaly-q3" },
+            { "text": "The CME Impact Theory", "next": "path-cme-q3" }
+          ]
+        },
+        {
+          "id": "path-stones-q3",
+          "title": "Question 3: How to Approach?",
+          "text": "Following Mateo's advice, Flash waited by a circle of iron-rich boulders. For three weeks, nothing. Then, the silence broke. The stones began to hum, a deep resonance that vibrated through his tripod. The water in a nearby lagoon began to form complex, stable ripples. Mateo, ever calm, cautioned, 'The earth is singing its secret song now. It does not like to be disturbed while it performs.'",
+          "animation": "humming-stones",
+          "choices": [
+            { "text": "The Immersive Shot (Risk It)", "next": "path-stones-q4" },
+            { "text": "The Observational Shot (Play It Safe)", "next": "path-stones-q4" }
+          ]
+        },
+        {
+          "id": "path-stones-q4",
+          "title": "Question 4: Equipment Failure",
+          "text": "As a massive caiman began to surface, its form distorting the very light around it, Flash’s primary digital camera suddenly died. The screen flashed a single, terrifying message: ERROR: ELECTROMAGNETIC INTRUSION. The advanced technology he relied on was useless against this raw, natural power.",
+          "animation": "camera-fail",
+          "choices": [
+            { "text": "The Analog Solution", "next": "path-stones-q5" },
+            { "text": "The Risky Reboot", "next": "path-stones-q5" }
+          ]
+        },
+        {
+          "id": "path-stones-q5",
+          "title": "Question 5: A Convergence",
+          "text": "Looking through his backup analog lens, Flash realized it wasn't one caiman, but a dozen, all exhibiting a strange, subtle shimmer. The largest specimen had small, iron-rich pebbles levitating in a slow, perfect orbit around its massive head. This wasn't a single creature; it was a synchronous, planetary event, and he was the only one witnessing it.",
+          "animation": "levitating-stones",
+          "choices": [
+            { "text": "The Alpha Subject", "next": "path-stones-q6" },
+            { "text": "The Ecosystem Documentation", "next": "path-stones-q6" }
+          ]
+        },
+        {
+          "id": "path-stones-q6",
+          "title": "Question 6: The Narrative",
+          "text": "As quickly as it began, the humming ceased. The pebbles dropped, and the caimans dispersed as if waking from a dream. But Flash had the photos—blurry, analog, but undeniable proof. He had a story that could change the world. The question now was, how should he frame it?",
+          "animation": "photo-proof",
+          "choices": [
+            { "text": "Emphasize Conservation", "next": "ending-stones-marvel" },
+            { "text": "Highlight Scientific Implications", "next": "ending-stones-engine" }
+          ]
+        },
+        {
+          "id": "ending-stones-marvel",
+          "title": "A Fragile Marvel",
+          "text": "You choose to tell a story of wonder. Your article presents the 'Singing Caimans' as a unique, fragile natural marvel that must be protected from human interference. The world is captivated. The area is declared a protected reserve, limiting scientific scrutiny but ensuring the survival of this incredible secret.",
+          "animation": "nature-protect",
+          "isEnding": true
+        },
+        {
+          "id": "ending-stones-engine",
+          "title": "The Engine of Earth",
+          "text": "You choose to tell a story of power. Your report highlights the immense scientific implications, suggesting the crocodiles are a side effect of a powerful, untapped geothermal energy source. The world is intrigued. International scientific and commercial interest floods the region, bringing incredible discoveries but also great risk.",
+          "animation": "science-discovery",
+          "isEnding": true
+        },
+        {
+          "id": "path-nests-q3",
+          "title": "Question 3: Anomalous Behavior",
+          "text": "Mateo led Flash to a stretch of river where the local birds' nests shimmered with a strange, metallic luster, woven with magnetic filaments. More bizarrely, he observed the local fish, known for their high iron content, schooling in unusually perfect, synchronized spirals, like a biological vortex. 'The river is dreaming,' Mateo said. 'But what is the dream about?'",
+          "animation": "fish-spiral",
+          "choices": [
+            { "text": "A Geological Source", "next": "path-nests-q4" },
+            { "text": "A Biological Emitter", "next": "path-nests-q4" }
+          ]
+        },
+        {
+          "id": "path-nests-q4",
+          "title": "Question 4: The Epicenter",
+          "text": "Following the river, they found a secluded, deep-water pond, its surface shimmering with the same metallic particles. The air was thick with a strange energy. Mateo stopped at the water's edge and pointed. 'This,' he whispered, 'is the heart of the matter. The cradle of the metal spirit.'",
+          "animation": "shimmering-pond",
+          "choices": [
+            { "text": "Deploy an Underwater Drone", "next": "path-nests-q5" },
+            { "text": "Establish a Blind", "next": "path-nests-q5" }
+          ]
+        },
+        {
+          "id": "path-nests-q5",
+          "title": "Question 5: The Discovery",
+          "text": "A colossal crocodile emerged from the shimmering water. Flash watched, stunned, as it purposefully dredged the muddy bottom with its snout, then rolled, coating its armored scutes in the metallic mud. It wasn't born magnetic; it was intelligently applying a magnetic material to itself, like a knight putting on armor.",
+          "animation": "croc-mud",
+          "choices": [
+            { "text": "A Study in Animal Intelligence", "next": "path-nests-q6" },
+            { "text": "A Portrait of Natural Alchemy", "next": "path-nests-q6" }
+          ]
+        },
+        {
+          "id": "path-nests-q6",
+          "title": "Question 6: The Implications",
+          "text": "A tool-using reptile! This discovery would make global headlines and rewrite textbooks. But Flash knew the story had two powerful angles. Which aspect of this incredible discovery was more significant to share with the world?",
+          "animation": "newspaper-headline",
+          "choices": [
+            { "text": "Reptilian Intellect Redefined", "next": "ending-nests-intellect" },
+            { "text": "The Magnetic Mines of the Pantanal", "next": "ending-nests-mines" }
+          ]
+        },
+        {
+          "id": "ending-nests-intellect",
+          "title": "Reptilian Intellect Redefined",
+          "text": "You make the crocodile's incredible intelligence the central focus of your story. The scientific world is electrified, forced to reconsider the cognitive abilities of reptiles. The 'Armored Croc of Pantanal' becomes a symbol of the hidden genius within the animal kingdom.",
+          "animation": "thinking-reptile",
+          "isEnding": true
+        },
+        {
+          "id": "ending-nests-mines",
+          "title": "The Magnetic Mines of the Pantanal",
+          "text": "You focus your story on the unique, powerful biomagnetic mud, a substance with incredible technological potential. This triggers a rush of commercial and mining interests to the area, bringing wealth and innovation but potentially endangering the very creature you've just documented.",
+          "animation": "mining-excavator",
+          "isEnding": true
+        },
+        {
+          "id": "path-cme-q3",
+          "title": "Question 3: How to Document?",
+          "text": "'This is it,' Dr. Thorne exclaimed, pointing to her monitors showing a massive solar eruption. 'A Coronal Mass Ejection—the sun's utterly massive, global-scale tantrum—is our culprit!' Your soil samples confirmed it, supercharged with solar particles. That evening, the sky erupted in a bizarre, low-altitude aurora, and your Geiger counter clicked like an angry insect.",
+          "animation": "low-aurora",
+          "choices": [
+            { "text": "The Aesthetic Approach", "next": "path-cme-q4" },
+            { "text": "The Scientific Approach", "next": "path-cme-q4" }
+          ]
+        },
+        {
+          "id": "path-cme-q4",
+          "title": "Question 4: Biological Disruption",
+          "text": "In the middle of the eerie light show, you look up and see a flock of migratory birds, usually so graceful, flying in completely disoriented circles. Their natural magnetic navigation, their internal compass, was being scrambled by the solar storm. This was a clear, direct, and worrying impact of the space weather event on living creatures.",
+          "animation": "confused-birds",
+          "choices": [
+            { "text": "The Local Ecological Story", "next": "path-cme-q5" },
+            { "text": "The Global Systemic Warning", "next": "path-cme-q5" }
+          ]
+        },
+        {
+          "id": "path-cme-q5",
+          "title": "Question 5: The Event's Duration",
+          "text": "After precisely twelve minutes, the unearthly light vanished and the caiman's shimmer faded as if a switch had been flipped. The Geiger counter fell silent. Dr. Thorne, over the radio, explained, 'Earth's rotation moved us out of the direct particle stream. Good timing, I suppose. Any longer and we might have started glowing ourselves.'",
+          "animation": "aurora-fade",
+          "choices": [
+            { "text": "A Transient Phenomenon", "next": "path-cme-q6" },
+            { "text": "A Cyclical Threat", "next": "path-cme-q6" }
+          ]
+        },
+        {
+          "id": "path-cme-q6",
+          "title": "Question 6: Public Reaction",
+          "text": "Your photographs are incredible. They are the first to definitively link a major space weather event to a large-scale biological phenomenon on Earth. This story will have a huge impact. What should the takeaway be for the public?",
+          "animation": "earth-from-space",
+          "choices": [
+            { "text": "A Universe of Wonder", "next": "ending-cme-wonder" },
+            { "text": "A Cosmic Menace", "next": "ending-cme-menace" }
+          ]
+        },
+        {
+          "id": "ending-cme-wonder",
+          "title": "A Universe of Wonder",
+          "text": "Your story inspires awe across the globe. It highlights the profound and mysterious connections between our planet, its creatures, and the distant sun. Your work sparks a new wave of scientific curiosity and a passion for space exploration in a generation of young minds.",
+          "animation": "galaxy-spiral",
+          "isEnding": true
+        },
+        {
+          "id": "ending-cme-menace",
+          "title": "A Cosmic Menace",
+          "text": "Your story serves as a stark warning about our planet's fragility. It illustrates our vulnerability to powerful cosmic forces, creating a sense of urgency. Governments around the world are spurred to invest heavily in planetary defense and space weather prediction.",
+          "animation": "asteroid-warning",
+          "isEnding": true
+        },
+        {
+          "id": "path-anomaly-q3",
+          "title": "Question 3: Magnetic Field Effects",
+          "text": "Professor Thorne's equipment screamed to life, confirming her wildest theory: a massive, temporary fluctuation in the Earth's magnetic field was being focused by a deep-earth iron deposit right beneath you! The very ground vibrated, and your metal watch buzzed against your wrist. 'The field is peaking!' Thorne yelled over the radio. 'Get ready!'",
+          "animation": "magnetic-field-lines",
+          "choices": [
+            { "text": "The Epicenter", "next": "path-anomaly-q4" },
+            { "text": "The Secondary Effects", "next": "path-anomaly-q4" }
+          ]
+        },
+        {
+          "id": "path-anomaly-q4",
+          "title": "Question 4: The Conductor",
+          "text": "You fight your way to the epicenter. There, a colossal caiman lies dormant on an exposed bed of raw iron ore, humming with a palpable energy. The creature itself seems to be acting as a biological conductor, focusing the massive geological event. It's not just magnetic; it's part of a planetary circuit.",
+          "animation": "glowing-croc",
+          "choices": [
+            { "text": "The Calculated Risk", "next": "path-anomaly-q5" },
+            { "text": "The Professional Retreat", "next": "path-anomaly-q5" }
+          ]
+        },
+        {
+          "id": "path-anomaly-q5",
+          "title": "Question 5: A Natural Trap",
+          "text": "As you snap photos, you notice a horrifying detail. Small, iron-rich prey animals—rodents, birds, fish—are being helplessly pulled through the air toward the dormant caiman, which consumes them effortlessly without even moving. The powerful magnetic phenomenon acts as a highly localized, natural hunting trap.",
+          "animation": "animal-trap",
+          "choices": [
+            { "text": "A Natural Calamity", "next": "path-anomaly-q6" },
+            { "text": "A Natural Cycle", "next": "path-anomaly-q6" }
+          ]
+        },
+        {
+          "id": "path-anomaly-q6",
+          "title": "Question 6: The Ethical Dilemma",
+          "text": "Back in the lab, Dr. Thorne confirms your horrifying discovery is a cyclical, predictable event. Worse, her models show it could occur in other iron-rich regions globally, some of them populated. You now possess knowledge that could save lives but would also cause worldwide panic.",
+          "animation": "world-map-hotspots",
+          "choices": [
+            { "text": "The Full Disclosure", "next": "ending-anomaly-disclosure" },
+            { "text": "The Measured Warning", "next": "ending-anomaly-warning" }
+          ]
+        },
+        {
+          "id": "ending-anomaly-disclosure",
+          "title": "The Full Disclosure",
+          "text": "You decide the public has a right to know. You publish the full story, including Dr. Thorne's data on its predictability. It causes widespread panic and economic disruption in other identified 'hot zones,' but evacuations begin. It is the hard, moral choice.",
+          "animation": "news-alert",
+          "isEnding": true
+        },
+        {
+          "id": "ending-anomaly-warning",
+          "title": "The Measured Warning",
+          "text": "You decide the truth is too dangerous for the public. You publish the general photos of the 'Magnetic Croc' but only share the classified data with international research institutions, allowing governments to prepare contingency plans without causing global hysteria.",
+          "animation": "secret-file",
+          "isEnding": true
+        }
+      ]
+    },
+    {
+      "id": "iron-man-cosmic-choice",
+      "title": "Iron Man's Cosmic Choice",
+      "subtitle": "A Choose-Your-Own-Adventure",
+      "description": "When a mysterious 'Cosmic Weather Bomb' hits, Tony Stark must make a series of high-stakes choices. The fate of the planet is in your hands!",
+      "icon": "🤖",
+      "color": "from-red-600 to-yellow-500",
+      "chapters": [
+        {
+          "id": "intro",
+          "title": "A Perfect Tuesday, Ruined",
+          "text": "Tony Stark was having a perfect Tuesday. Lounging in his private, sub-orbital jet, he was sipping an espresso that cost more than a used car and admiring his brand-new StarkLink satellite constellation on a giant holographic display. 'See, F.R.I.D.A.Y.?' he said smugly. 'Perfect, uninterrupted internet for the entire planet. I've finally solved buffering. I expect my Nobel Prize by drone.' Suddenly, the hologram fizzled. Outside, space was streaked with an eerie, shimmering light. 'What was that?' Tony demanded. 'Boss,' F.R.I.D.A.Y.'s voice was urgent, 'We've just been hit by a massive, unpredicted 'Cosmic Weather Bomb.' The ISS is heading directly into it.' Tony suited up. 'Send the sun a bill for damages.'",
+          "animation": "jet-fizzle",
+          "choices": [
+            { "text": "The Astronauts, Obviously.", "next": "q1a-heroic-path" },
+            { "text": "The Big Picture First.", "next": "q1b-strategist-path" }
+          ]
+        },
+        {
+          "id": "q1a-heroic-path",
+          "title": "Question 2: How Do You Save the Day?",
+          "text": "There's no time to waste. 'The astronauts, obviously!' you command. With a concussive boom that rattles the jet, you launch into the void. Space is no longer black, but a chaotic canvas of shimmering, angry light. 'The station is flying blind, their comms are down, and their navigation is completely shot,' F.R.I.D.A.Y. reports, her voice strained. 'They're tumbling.' You see it now—the International Space Station, a beacon of human achievement, now a helpless toy tossed into the angriest part of the storm. Alarms from your own suit shriek as you enter the particle cloud. 'I've been a tin can in a cosmic microwave before,' you quip to yourself. 'Solid 2-star experience, would not recommend.' It's time to do something flashy and heroic.",
+          "animation": "iss-danger",
+          "choices": [
+            { "text": "The Magnetic Umbrella", "next": "q2a-umbrella" },
+            { "text": "The Repulsor Wave", "next": "q2b-repulsor" }
+          ]
+        },
+        {
+          "id": "q1b-strategist-path",
+          "title": "Question 2: What's Your Next Move?",
+          "text": "'Hold your horses, F.R.I.D.A.Y. Let's not rush in and get my suit all scuffed up,' you say, a swarm of high-speed diagnostic drones launching from your back. 'Let's see the ingredients before we taste the pie.' The drones feed you real-time data, painting a picture of the chaos. Most of your satellites are just offline, their systems temporarily overloaded. But one... isn't yours. It's an old, decommissioned spy satellite, glowing like a radioactive Christmas ornament right at the center of the blast, seemingly amplifying the storm.",
+          "animation": "drone-swarm",
+          "choices": [
+            { "text": "Remote Detonation", "next": "q2c-detonation" },
+            { "text": "A Personal Visit", "next": "q2d-visit" }
+          ]
+        },
+        {
+          "id": "q2a-umbrella",
+          "title": "Question 3: What's the Public Story?",
+          "text": "Extending your arms, you project a shimmering blue bubble of pure energy, enveloping the tumbling space station. It's a heck of a light show. The strain on your suit's core is immense, and power levels plummet. 'Note to self,' you grunt through clenched teeth, 'Charge more for the Super-Deluxe Hero Package.' Slowly, the cosmic storm passes, its fury deflected by your shield. The station stabilizes. You saved them.",
+          "animation": "magnetic-umbrella",
+          "choices": [
+            { "text": "The Heroic Narrative (Spin)", "next": "q3a-heroic-narrative" },
+            { "text": "The Brutal Truth (Panic)", "next": "q3b-brutal-truth" }
+          ]
+        },
+        {
+          "id": "q2b-repulsor",
+          "title": "Question 3: What Do You Do With This New Science?",
+          "text": "This calls for a more... direct approach. You brace yourself in space, channeling all available power into your gauntlets. With a roar, you unleash a massive, wide-beam repulsor blast that feels like punching a hurricane. The wave of pure energy physically shoves the particle cloud aside, creating a safe corridor for the ISS. The station is safe, and F.R.I.D.A.Y. has recorded an incredible amount of unique data on energy displacement.",
+          "animation": "repulsor-wave",
+          "choices": [
+            { "text": "Create Project Aegis", "next": "q3c-project-aegis" },
+            { "text": "Upgrade the Suit", "next": "q3d-upgrade-suit" }
+          ]
+        },
+        {
+          "id": "q3a-heroic-narrative",
+          "title": "Question 4: The Government's Reaction?",
+          "text": "You hold a press conference, masterfully spinning the event as a 'freak solar flare' that Iron Man bravely fought off. The world sighs in relief, you get great headlines, and nobody panics. But the world's governments know you're hiding something, and their secret calls start coming in.",
+          "animation": "press-conference",
+          "choices": [
+            { "text": "Stonewall them.", "next": "q4a-stonewall" },
+            { "text": "Form a secret alliance.", "next": "q4b-alliance" }
+          ]
+        },
+        {
+          "id": "q3b-brutal-truth",
+          "title": "Question 4: Who Leads the Global Defense Initiative?",
+          "text": "You land and immediately release all the data. You announce to a stunned world that 'Cosmic Weather Bombs' are real and Earth is dangerously unprepared. Panic grips the financial markets and public, but it forces a necessary, terrified conversation. A global defense effort must begin.",
+          "animation": "global-panic",
+          "choices": [
+            { "text": "You take the lead.", "next": "q4c-lead-initiative" },
+            { "text": "A Global Coalition.", "next": "q4d-coalition" }
+          ]
+        },
+        {
+          "id": "q4a-stonewall",
+          "title": "Question 5: The Next Bomb Hits",
+          "text": "You ignore the governments' calls, maintaining control of the situation yourself. This creates powerful enemies who don't trust you. Weeks later, a second, bigger bomb hits a populated area on Earth, and you're the only one who knows what it is.",
+          "animation": "city-impact",
+          "choices": [
+            { "text": "Reveal the truth now.", "next": "q5a-reveal-truth" },
+            { "text": "Double down on the cover-up.", "next": "q5b-double-down" }
+          ]
+        },
+        {
+          "id": "q4b-alliance",
+          "title": "Question 5: The Next Bomb Hits",
+          "text": "You agree to share the truth, but only with a select few global leaders, forming a clandestine defense program. It's efficient but secretive. Before your plans are complete, a second, bigger bomb strikes a populated area on Earth.",
+          "animation": "city-impact",
+          "choices": [
+            { "text": "Reveal the truth now.", "next": "q5a-reveal-truth" },
+            { "text": "Double down on the cover-up.", "next": "q5b-double-down" }
+          ]
+        },
+        {
+          "id": "q5a-reveal-truth",
+          "title": "Question 6: What's the Ultimate Legacy?",
+          "text": "With disaster striking, you have no choice but to tell the world everything. Your reputation for secrecy is damaged, but your expertise is undeniable. The world looks to you to lead the global response.",
+          "animation": "global-response",
+          "choices": [
+            { "text": "The Stark Doctrine.", "next": "ending-stark-doctrine" },
+            { "text": "The Age of Paranoia.", "next": "ending-age-of-paranoia" }
+          ]
+        },
+        {
+          "id": "q5b-double-down",
+          "title": "Question 6: What's the Ultimate Legacy?",
+          "text": "You can't risk panic. You engineer a cover story, blaming the disaster on another 'unprecedented solar flare.' You control the narrative and prevent hysteria, but the lie weighs heavily on you.",
+          "animation": "media-spin",
+          "choices": [
+            { "text": "The Stark Doctrine.", "next": "ending-stark-doctrine" },
+            { "text": "The Age of Paranoia.", "next": "ending-age-of-paranoia" }
+          ]
+        },
+        {
+          "id": "ending-stark-doctrine",
+          "title": "The Stark Doctrine",
+          "text": "Your leadership, though born from secrecy, unites the world. The Stark Doctrine establishes a global planetary defense system under your guidance, ensuring Earth's safety through centralized power.",
+          "animation": "planetary-shield",
+          "isEnding": true
+        },
+        {
+          "id": "ending-age-of-paranoia",
+          "title": "The Age of Paranoia",
+          "text": "Your secrets and half-truths eventually crumble. The world knows it's vulnerable but no longer trusts its heroes or leaders to tell the full story, leading to an era of global suspicion and fear.",
+          "animation": "protests",
+          "isEnding": true
+        },
+        {
+          "id": "q4c-lead-initiative",
+          "title": "Question 5: A Rival Emerges",
+          "text": "The world's governments, in their panic, grant you unprecedented global power to lead the defense initiative. It's the fastest way. But your public data inspires a tech rival, who creates a competing, and dangerously unstable, defense system.",
+          "animation": "tech-rival",
+          "choices": [
+            { "text": "Buy them out.", "next": "q5c-buyout" },
+            { "text": "Expose them.", "next": "q5d-expose" }
+          ]
+        },
+        {
+          "id": "q4d-coalition",
+          "title": "Question 5: A Rival Emerges",
+          "text": "You agree to act as a consultant to a new UN-style global committee. It's slower and bureaucratic, but more democratic. As you debate, a tech rival uses your public data to rush their own dangerous defense system to market.",
+          "animation": "tech-rival",
+          "choices": [
+            { "text": "Buy them out.", "next": "q5c-buyout" },
+            { "text": "Expose them.", "next": "q5d-expose" }
+          ]
+        },
+        {
+          "id": "q5c-buyout",
+          "title": "Question 6: What's the Ultimate Legacy?",
+          "text": "You solve the problem the old-fashioned way: capitalism. You acquire your rival's company in a hostile takeover, absorbing their technology and neutralizing the threat before it can cause any harm.",
+          "animation": "hostile-takeover",
+          "choices": [
+            { "text": "A Shield for Humanity.", "next": "ending-shield-humanity" },
+            { "text": "A Cosmic Arms Race.", "next": "ending-cosmic-arms-race" }
+          ]
+        },
+        {
+          "id": "q5d-expose",
+          "title": "Question 6: What's the Ultimate Legacy?",
+          "text": "You can't let them endanger the planet. You hack your rival's system, find the fatal flaws in their corner-cutting design, and leak the proof to the world, ruining their company but ensuring global safety.",
+          "animation": "data-leak",
+          "choices": [
+            { "text": "A Shield for Humanity.", "next": "ending-shield-humanity" },
+            { "text": "A Cosmic Arms Race.", "next": "ending-cosmic-arms-race" }
+          ]
+        },
+        {
+          "id": "ending-shield-humanity",
+          "title": "A Shield for Humanity",
+          "text": "Your open approach works. Earth is protected by a sophisticated, globally-managed defense grid, ushering in a new age of safety and interstellar awareness.",
+          "animation": "planetary-shield-success",
+          "isEnding": true
+        },
+        {
+          "id": "ending-cosmic-arms-race",
+          "title": "A Cosmic Arms Race",
+          "text": "Your brilliant defense system has been copied and weaponized by nations who don't trust each other. Your technology has inadvertently turned the skies into a new, terrifying cold war battleground.",
+          "animation": "space-battle",
+          "isEnding": true
+        },
+        {
+          "id": "q3c-project-aegis",
+          "title": "Question 4: Where do you build it?",
+          "text": "This data is too important to keep to yourself. You announce 'Project Aegis,' a revolutionary planetary defense system designed to protect all of humanity from cosmic threats. The world is hopeful, but now you have to decide where to build this massive undertaking.",
+          "animation": "aegis-blueprint",
+          "choices": [
+            { "text": "In space.", "next": "q4e-space-build" },
+            { "text": "On the ground.", "next": "q4f-ground-build" }
+          ]
+        },
+        {
+          "id": "q3d-upgrade-suit",
+          "title": "Question 4: The Power Corrupts?",
+          "text": "This 'Energy Wave' technology is too powerful and unpredictable to share. You secretly integrate it directly into the Iron Man suit, creating the ultimate weapon. F.R.I.D.A.Y. runs a simulation and warns that a full-power blast could potentially crack a tectonic plate.",
+          "animation": "suit-upgrade",
+          "choices": [
+            { "text": "Install Fail-Safes.", "next": "q4g-failsafes" },
+            { "text": "Trust Yourself.", "next": "q4h-trust-yourself" }
+          ]
+        },
+        {
+          "id": "q4e-space-build",
+          "title": "Question 5: Sabotage!",
+          "text": "You decide to build Aegis as a new satellite network. It's the most effective position, but it's also vulnerable. During construction, F.R.I.D.A.Y. detects an anomaly. Someone is trying to steal the schematics from inside your own network. It's an inside job.",
+          "animation": "satellite-sabotage",
+          "choices": [
+            { "text": "Lockdown.", "next": "q5e-lockdown" },
+            { "text": "Use it as a trap.", "next": "q5f-trap" }
+          ]
+        },
+        {
+          "id": "q4f-ground-build",
+          "title": "Question 5: Sabotage!",
+          "text": "You opt for huge installations on the ground. They are more secure, but the construction has a massive environmental and political impact. Protests erupt. In the chaos, F.R.I.D.A.Y. detects a breach. Someone is trying to steal the schematics. It's an inside job.",
+          "animation": "ground-sabotage",
+          "choices": [
+            { "text": "Lockdown.", "next": "q5e-lockdown" },
+            { "text": "Use it as a trap.", "next": "q5f-trap" }
+          ]
+        },
+        {
+          "id": "q5e-lockdown",
+          "title": "Question 6: What Have You Become?",
+          "text": "You immediately shut down the entire project and launch a ruthless internal investigation. You will find the traitor, no matter how long it takes or who you have to burn. Security comes first.",
+          "animation": "security-lockdown",
+          "choices": [
+            { "text": "A Benevolent Protector.", "next": "ending-benevolent-protector" },
+            { "text": "Stark's Sword.", "next": "ending-starks-sword" }
+          ]
+        },
+        {
+          "id": "q5f-trap",
+          "title": "Question 6: What Have You Become?",
+          "text": "An inside job? Perfect. You create a honeypot, leaking fake, fatally flawed schematics into a monitored network. Now you just have to wait and see which one of your 'friends' tries to build a faulty doomsday device.",
+          "animation": "honey-pot",
+          "choices": [
+            { "text": "A Benevolent Protector.", "next": "ending-benevolent-protector" },
+            { "text": "Stark's Sword.", "next": "ending-starks-sword" }
+          ]
+        },
+        {
+          "id": "ending-benevolent-protector",
+          "title": "A Benevolent Protector",
+          "text": "After dealing with the traitor, the Aegis system is completed. To prevent misuse, you hand over control to an independent, benevolent A.I. you designed, removing human error from the equation of planetary defense.",
+          "animation": "ai-control",
+          "isEnding": true
+        },
+        {
+          "id": "ending-starks-sword",
+          "title": "Stark's Sword",
+          "text": "After the betrayal, you trust no one. The completed Aegis system remains under your direct, absolute control. You are now the de facto protector—and some would whisper, the ruler—of the entire planet.",
+          "animation": "iron-throne",
+          "isEnding": true
+        },
+        {
+          "id": "q4g-failsafes",
+          "title": "Question 5: An Unwinnable Fight",
+          "text": "You listen to your conscience and create unbreakable software limiters that prevent the weapon from ever being used at its catastrophic full capacity. Years later, a massive, world-ending threat appears. Your simulations show that only the full-power Repulsor Wave has a chance.",
+          "animation": "alien-threat",
+          "choices": [
+            { "text": "Attempt to fire (it fails).", "next": "q5h-find-another-way" },
+            { "text": "Find Another Way.", "next": "q5h-find-another-way" }
+          ]
+        },
+        {
+          "id": "q4h-trust-yourself",
+          "title": "Question 5: An Unwinnable Fight",
+          "text": "You're Tony Stark. You trust your own judgment. You keep the weapon at its full, terrifying potential because you know one day, you might need it. That day arrives. A massive, world-ending threat appears. Only the full-power Repulsor Wave has a chance.",
+          "animation": "alien-threat",
+          "choices": [
+            { "text": "Fire the Wave.", "next": "q5g-fire-wave" },
+            { "text": "Find Another Way.", "next": "q5h-find-another-way" }
+          ]
+        },
+        {
+          "id": "q5g-fire-wave",
+          "title": "Question 6: What Have You Become?",
+          "text": "You make the impossible choice. You fire the wave at full power. The threat is vaporized. You save the world, but the backlash causes a catastrophic earthquake that devastates a continent. You fulfilled F.R.I.D.A.Y.'s dark prophecy.",
+          "animation": "earthquake",
+          "choices": [
+            { "text": "A Burdened King.", "next": "ending-burdened-king" },
+            { "text": "A Symbol of Restraint.", "next": "ending-symbol-of-restraint" }
+          ]
+        },
+        {
+          "id": "q5h-find-another-way",
+          "title": "Question 6: What Have You Become?",
+          "text": "You refuse to use the weapon, knowing the collateral damage would be too great. The world is on the brink of destruction, but you work frantically, outsmarting the enemy at the last possible second with a stroke of pure genius, not brute force.",
+          "animation": "outsmart-enemy",
+          "choices": [
+            { "text": "A Burdened King.", "next": "ending-burdened-king" },
+            { "text": "A Symbol of Restraint.", "next": "ending-symbol-of-restraint" }
+          ]
+        },
+        {
+          "id": "ending-burdened-king",
+          "title": "A Burdened King",
+          "text": "Your actions have made you the ultimate power on Earth, a figure both feared and respected. You live forever wrestling with the immense consequences of the choices you made to keep the world safe.",
+          "animation": "king-on-throne",
+          "isEnding": true
+        },
+        {
+          "id": "ending-symbol-of-restraint",
+          "title": "A Symbol of Restraint",
+          "text": "You become known throughout the world and beyond as the person who possessed ultimate power but chose not to use it. Your restraint and intellect inspire a new generation of heroes who value wisdom over weaponry.",
+          "animation": "heroic-pose",
+          "isEnding": true
+        },
+        {
+          "id": "q2c-detonation",
+          "title": "Question 3: How Do You Handle the Fallout?",
+          "text": "It's a messy solution, but it's fast. 'F.R.I.D.A.Y., hack that relic and blow it sky-high.' The spy satellite explodes, instantly neutralizing the radiation source. Unfortunately, the resulting EMP blast fries half the communication satellites in the northern hemisphere. You've averted one disaster by creating an economic catastrophe.",
+          "animation": "emp-blast",
+          "choices": [
+            { "text": "Take the Blame.", "next": "q3e-take-blame" },
+            { "text": "Create a Cover Story.", "next": "q3f-cover-story" }
+          ]
+        },
+        {
+          "id": "q2d-visit",
+          "title": "Question 3: First Contact or First Casualty?",
+          "text": "The data is boring; you need to see for yourself. You fly into the radiation, your suit shielding you. The 'satellite' is not man-made. It's a crystalline, alien probe, cracked and leaking dangerous radiation. It's an S.O.S. signal that's about to go critical and explode.",
+          "animation": "alien-probe",
+          "choices": [
+            { "text": "Destroy It.", "next": "q3g-destroy-it" },
+            { "text": "Try to Fix It.", "next": "q3h-fix-it" }
+          ]
+        },
+        {
+          "id": "q3e-take-blame",
+          "title": "Question 4: How do you rebuild?",
+          "text": "You call a press conference and take full responsibility. 'I made a hard call. I destroyed one satellite to prevent a greater disaster for the ISS.' You are hailed as a hero by some, but others call you a reckless villain for the massive communications blackout.",
+          "animation": "public-speech",
+          "choices": [
+            { "text": "StarkLink 2.0.", "next": "q4i-starklink2" },
+            { "text": "Open-Source the Solution.", "next": "q4j-open-source" }
+          ]
+        },
+        {
+          "id": "q3f-cover-story",
+          "title": "Question 4: The Lie Snowballs",
+          "text": "You can't admit you just caused billions in damages. You publicly blame the entire incident, including the satellite blackout, on the 'Cosmic Weather Bomb.' It protects your reputation for now, but a tenacious journalist starts poking holes in the official story.",
+          "animation": "journalist",
+          "choices": [
+            { "text": "Misdirection.", "next": "q4k-misdirection" },
+            { "text": "Come Clean (to them).", "next": "q4l-come-clean" }
+          ]
+        },
+        {
+          "id": "q4i-starklink2",
+          "title": "Question 5: An Old Enemy Returns",
+          "text": "To make amends, you spend a fortune of your own money to build and launch StarkLink 2.0, a new, free satellite network for the entire world. Just as it goes online, you get a message. The creators of the spy satellite you blew up (HYDRA) emerge from the shadows, angry you destroyed their secret weapon.",
+          "animation": "hydra-emerges",
+          "choices": [
+            { "text": "Fight Fire with Fire.", "next": "q5i-fight-fire" },
+            { "text": "Expose Them to the World.", "next": "q5j-expose-hydra" }
+          ]
+        },
+        {
+          "id": "q4j-open-source",
+          "title": "Question 5: An Old Enemy Returns",
+          "text": "You decide to empower the world. You release all of your satellite schematics, open-sourcing the solution so anyone can rebuild. As new networks spring up, you get a message. The creators of the spy satellite you blew up (HYDRA) emerge, angry you destroyed their weapon.",
+          "animation": "hydra-emerges",
+          "choices": [
+            { "text": "Fight Fire with Fire.", "next": "q5i-fight-fire" },
+            { "text": "Expose Them to the World.", "next": "q5j-expose-hydra" }
+          ]
+        },
+        {
+          "id": "q5i-fight-fire",
+          "title": "Question 6: What Is Your Reputation?",
+          "text": "HYDRA wants a fight? They'll get one. You use your resources and the Iron Man suit to aggressively hunt down their splinter cells across the globe, dismantling their network piece by piece.",
+          "animation": "iron-man-battle",
+          "choices": [
+            { "text": "The People's Provider.", "next": "ending-peoples-provider" },
+            { "text": "The Necessary Evil.", "next": "ending-necessary-evil" }
+          ]
+        },
+        {
+          "id": "q5j-expose-hydra",
+          "title": "Question 6: What Is Your Reputation?",
+          "text": "You won't play their shadow games. You compile all the data you have on HYDRA—their locations, their plans—and leak it to every major news outlet and government agency in the world, letting the authorities handle the cleanup.",
+          "animation": "data-leak-hydra",
+          "choices": [
+            { "text": "The People's Provider.", "next": "ending-peoples-provider" },
+            { "text": "The Necessary Evil.", "next": "ending-necessary-evil" }
+          ]
+        },
+        {
+          "id": "ending-peoples-provider",
+          "title": "The People's Provider",
+          "text": "After defeating HYDRA and providing free global internet, you are beloved by the world. Your past recklessness is forgiven, and you are remembered as the man who connected humanity.",
+          "animation": "global-connection",
+          "isEnding": true
+        },
+        {
+          "id": "ending-necessary-evil",
+          "title": "The Necessary Evil",
+          "text": "Your aggressive actions against HYDRA and the satellite incident define your legacy. You are respected for getting the job done, but also feared as a man who operates outside the law and makes hard choices for others.",
+          "animation": "thoughtful-pose",
+          "isEnding": true
+        },
+        {
+          "id": "q4k-misdirection",
+          "title": "Question 5: Someone Knows",
+          "text": "You can't have a pesky journalist ruin everything. You use your vast resources to create a convincing false trail, leading them to believe the blackout was caused by a rival corporation. Just as you relax, a message appears on your screen: 'I know what you did.'",
+          "animation": "hacker-message",
+          "choices": [
+            { "text": "Call Their Bluff.", "next": "q5k-call-bluff" },
+            { "text": "Play Along.", "next": "q5l-play-along" }
+          ]
+        },
+        {
+          "id": "q4l-come-clean",
+          "title": "Question 5: Someone Knows",
+          "text": "You decide to control the narrative. You grant the journalist an exclusive, off-the-record interview, telling them the whole truth and convincing them that publishing it would cause a panic. They agree to sit on the story. You've made a powerful ally, but just then, a message appears on your screen: 'I know what you did.'",
+          "animation": "hacker-message",
+          "choices": [
+            { "text": "Call Their Bluff.", "next": "q5k-call-bluff" },
+            { "text": "Play Along.", "next": "q5l-play-along" }
+          ]
+        },
+        {
+          "id": "q5k-call-bluff",
+          "title": "Question 6: What Is Your Reputation?",
+          "text": "An anonymous blackmailer? Please. You ignore the threat and task F.R.I.D.A.Y. with a new mission: find this person before they can leak the truth. It's a race against time.",
+          "animation": "race-against-time",
+          "choices": [
+            { "text": "A Web of Lies.", "next": "ending-web-of-lies" },
+            { "text": "A Hard-Won Truth.", "next": "ending-hard-won-truth" }
+          ]
+        },
+        {
+          "id": "q5l-play-along",
+          "title": "Question 6: What Is Your Reputation?",
+          "text": "The blackmailer demands a dangerous weapon. You agree, but it's a ruse. You pretend to build the weapon for them, but you're secretly building an intricate trap to capture them when they come to collect.",
+          "animation": "building-trap",
+          "choices": [
+            { "text": "A Web of Lies.", "next": "ending-web-of-lies" },
+            { "text": "A Hard-Won Truth.", "next": "ending-hard-won-truth" }
+          ]
+        },
+        {
+          "id": "ending-web-of-lies",
+          "title": "A Web of Lies",
+          "text": "You successfully handle the blackmailer, but your life is now a complex web of lies and cover-ups. You maintain your public image, but you are now tangled in secrets that constantly threaten to unravel.",
+          "animation": "spider-web",
+          "isEnding": true
+        },
+        {
+          "id": "ending-hard-won-truth",
+          "title": "A Hard-Won Truth",
+          "text": "The blackmail attempt forces your hand. The truth eventually comes out, but on your own terms. You face the public consequences but emerge with a renewed commitment to transparency, a lesson learned.",
+          "animation": "sunrise",
+          "isEnding": true
+        },
+        {
+          "id": "q3g-destroy-it",
+          "title": "Question 4: Analyzing the Debris",
+          "text": "This thing is an unknown variable and a clear threat. You don't hesitate. You blast the alien probe to pieces with a targeted missile. The radiation dissipates. As you analyze the debris, you realize the alien technology is light-years ahead of anything on Earth.",
+          "animation": "alien-debris",
+          "choices": [
+            { "text": "Reverse-Engineer It.", "next": "q4m-reverse-engineer" },
+            { "text": "Keep it Locked Away.", "next": "q4n-lock-away" }
+          ]
+        },
+        {
+          "id": "q3h-fix-it",
+          "title": "Question 4: The Message",
+          "text": "This is a chance to make first contact, not destroy it. You carefully use your suit's nanites to seal the cracks in the probe's crystalline shell. The radiation leak stops. Now stable, the probe transmits a complex message directly into your suit before warping away into deep space.",
+          "animation": "probe-warp",
+          "choices": [
+            { "text": "Share the Message.", "next": "q4o-share-message" },
+            { "text": "Keep the Message Secret.", "next": "q4p-secret-message" }
+          ]
+        },
+        {
+          "id": "q4m-reverse-engineer",
+          "title": "Question 5: They're Coming",
+          "text": "You secretly take the alien debris back to your lab and begin reverse-engineering it, leading to breakthroughs that could revolutionize life on Earth. But you learn a hard lesson: the probe was a scout, and destroying it sent a distress signal. A much larger alien ship is now on its way to Earth.",
+          "animation": "alien-mothership",
+          "choices": [
+            { "text": "Prepare for War.", "next": "q5m-prepare-war" },
+            { "text": "Prepare for Diplomacy.", "next": "q5n-prepare-diplomacy" }
+          ]
+        },
+        {
+          "id": "q4n-lock-away",
+          "title": "Question 5: They're Coming",
+          "text": "You decide this alien technology is too advanced and dangerous for humanity to handle. You lock the debris away in your most secure vault. But you learn a hard lesson: the probe was a scout, and destroying it sent a distress signal. A much larger alien ship is now on its way to Earth.",
+          "animation": "alien-mothership",
+          "choices": [
+            { "text": "Prepare for War.", "next": "q5m-prepare-war" },
+            { "text": "Prepare for Diplomacy.", "next": "q5n-prepare-diplomacy" }
+          ]
+        },
+        {
+          "id": "q5m-prepare-war",
+          "title": "Question 6: Humanity's New Destiny?",
+          "text": "They're coming for a fight? You'll give them one. You use the incredible alien technology you've studied to build a new generation of powerful weapons, preparing Earth's defenses for the impending invasion.",
+          "animation": "building-defenses",
+          "choices": [
+            { "text": "Galactic Warriors.", "next": "ending-galactic-warriors" },
+            { "text": "Cautious Newcomers.", "next": "ending-cautious-newcomers" }
+          ]
+        },
+        {
+          "id": "q5n-prepare-diplomacy",
+          "title": "Question 6: Humanity's New Destiny?",
+          "text": "You realize your first action was a mistake. You won't make another. You work with global leaders to create a message of peace and apology, broadcasting it to the approaching ship in hopes of preventing a war.",
+          "animation": "peace-message",
+          "choices": [
+            { "text": "Galactic Warriors.", "next": "ending-galactic-warriors" },
+            { "text": "Cautious Newcomers.", "next": "ending-cautious-newcomers" }
+          ]
+        },
+        {
+          "id": "ending-galactic-warriors",
+          "title": "Galactic Warriors",
+          "text": "Your first, violent encounter defines humanity's entry onto the galactic stage. Earth becomes known as a formidable, militaristic power, forever on guard against outside threats.",
+          "animation": "space-armada",
+          "isEnding": true
+        },
+        {
+          "id": "ending-cautious-newcomers",
+          "title": "Cautious Newcomers",
+          "text": "Through diplomacy or a near-disaster, humanity learns it's not alone. It proceeds onto the galactic stage with caution and wisdom, forever marked by the first contact that almost went wrong.",
+          "animation": "handshake",
+          "isEnding": true
+        },
+        {
+          "id": "q4o-share-message",
+          "title": "Question 5: The First Visitor",
+          "text": "You believe knowledge this monumental belongs to everyone. You share the alien message—containing complex star-charts and schematics—with the world. Soon after, the probe's owners arrive. They are a peaceful, advanced race, grateful for your help, and they offer humanity a gift.",
+          "animation": "aliens-arrive",
+          "choices": [
+            { "text": "The Gift of Knowledge.", "next": "q5o-gift-knowledge" },
+            { "text": "The Gift of Technology.", "next": "q5p-gift-technology" }
+          ]
+        },
+        {
+          "id": "q4p-secret-message",
+          "title": "Question 5: The First Visitor",
+          "text": "The alien message also contains grave warnings of a galactic threat. You decide this information is too dangerous for the public and keep it secret, believing only you can properly prepare Earth. The probe's owners arrive, grateful for your help, and offer humanity a gift.",
+          "animation": "aliens-arrive",
+          "choices": [
+            { "text": "The Gift of Knowledge.", "next": "q5o-gift-knowledge" },
+            { "text": "The Gift of Technology.", "next": "q5p-gift-technology" }
+          ]
+        },
+        {
+          "id": "q5o-gift-knowledge",
+          "title": "Question 6: Humanity's New Destiny?",
+          "text": "You ask for access to their archives, the accumulated knowledge of a thousand worlds. You believe that wisdom, not gadgets, is the key to humanity's future.",
+          "animation": "alien-library",
+          "choices": [
+            { "text": "The Golden Age.", "next": "ending-golden-age" },
+            { "text": "The Great Filter.", "next": "ending-great-filter" }
+          ]
+        },
+        {
+          "id": "q5p-gift-technology",
+          "title": "Question 6: Humanity's New Destiny?",
+          "text": "You ask for the technology to solve Earth's biggest problems: clean energy, disease, poverty. You believe that by fixing its own problems, humanity can earn its place in the cosmos.",
+          "animation": "utopia",
+          "choices": [
+            { "text": "The Golden Age.", "next": "ending-golden-age" },
+            { "text": "The Great Filter.", "next": "ending-great-filter" }
+          ]
+        },
+        {
+          "id": "ending-golden-age",
+          "title": "The Golden Age",
+          "text": "The gift works. Humanity is elevated, solving its age-old problems of war, poverty, and disease. It peacefully joins a vibrant galactic community, ushering in an unprecedented golden age of discovery.",
+          "animation": "future-city",
+          "isEnding": true
+        },
+        {
+          "id": "ending-great-filter",
+          "title": "The Great Filter",
+          "text": "The gift is too much, too soon. The advanced knowledge or technology causes social upheaval, inequality, and chaos as humanity struggles to adapt. It proves to be a 'Great Filter' that humanity was not yet ready to pass.",
+          "animation": "social-chaos",
+          "isEnding": true
+        }
+      ]
+    }
+  ]
+}

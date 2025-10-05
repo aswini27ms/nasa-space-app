@@ -1,0 +1,109 @@
+{
+    "facts": [
+      {
+        "id": 1,
+        "title": "Silence in Space",
+        "text": "There is no atmosphere in space, which means that sound has no medium to travel through to be heard. It's completely silent.",
+        "icon": "VolumeX",
+        "color": "from-slate-400 to-gray-500"
+      },
+      {
+        "id": 2,
+        "title": "A Day on Venus",
+        "text": "A single day on Venus is longer than its entire year. It rotates so slowly that it takes 243 Earth days to spin once, but only 225 Earth days to orbit the Sun.",
+        "icon": "RotateCw",
+        "color": "from-amber-400 to-orange-500"
+      },
+      {
+        "id": 3,
+        "title": "Neutron Stars",
+        "text": "Neutron stars are the collapsed cores of massive stars. They are so dense that a single spoonful would weigh about 6 billion tons.",
+        "icon": "Atom",
+        "color": "from-sky-400 to-blue-500"
+      },
+      {
+        "id": 4,
+        "title": "The Smell of Space",
+        "text": "Astronauts report that space has a distinct smell of seared steak, hot metal, and welding fumes, likely from dying stars.",
+        "icon": "CookingPot",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "id": 5,
+        "title": "Cosmic Water Cloud",
+        "text": "Astronomers found a massive water vapor cloud floating in space that holds 140 trillion times the mass of water in Earth's oceans.",
+        "icon": "CloudRain",
+        "color": "from-teal-400 to-cyan-500"
+      },
+      {
+        "id": 6,
+        "title": "Countless Stars",
+        "text": "There are more stars in the universe than grains of sand on all the beaches on Earth. That's at least a billion trillion!",
+        "icon": "Sparkles",
+        "color": "from-yellow-300 to-amber-400"
+      },
+      {
+        "id": 7,
+        "title": "Fastest Planet",
+        "text": "Mercury orbits the Sun in just 88 Earth days, making its year the shortest in our solar system. You'd have a birthday every three months!",
+        "icon": "Zap",
+        "color": "from-gray-400 to-slate-500"
+      },
+      {
+        "id": 8,
+        "title": "Solar System's Volcano",
+        "text": "The largest volcano in the solar system is Olympus Mons on Mars. It's a shield volcano that's about three times taller than Mount Everest.",
+        "icon": "Mountain",
+        "color": "from-red-600 to-orange-500"
+      },
+      {
+        "id": 9,
+        "title": "Gas Giants",
+        "text": "You can't stand on Jupiter, Saturn, Uranus, or Neptune because they are 'gas giants' and don't have a solid surface.",
+        "icon": "Wind",
+        "color": "from-indigo-400 to-blue-500"
+      },
+      {
+        "id": 10,
+        "title": "A Diamond Star",
+        "text": "Astronomers found a star that is a massive diamond! It's a crystallized white dwarf named Lucy, after a famous Beatles song.",
+        "icon": "Gem",
+        "color": "from-cyan-200 to-blue-300"
+      },
+      {
+        "id": 11,
+        "title": "Galaxy Collision",
+        "text": "Our Milky Way galaxy is on a collision course with the Andromeda galaxy. Don't worry, it won't happen for another 4.5 billion years!",
+        "icon": "GitMerge",
+        "color": "from-purple-500 to-indigo-600"
+      },
+      {
+        "id": 12,
+        "title": "The Drifting Moon",
+        "text": "The Moon is slowly drifting away from Earth at a rate of about 1.5 inches (3.8 cm) per year. Millions of years ago, it was much closer!",
+        "icon": "Moon",
+        "color": "from-slate-300 to-gray-400"
+      },
+      {
+        "id": 13,
+        "title": "The Sun's Dominance",
+        "text": "Our Sun is so massive that it accounts for 99.86% of the total mass of our entire solar system. All the planets are just leftovers!",
+        "icon": "Sigma",
+        "color": "from-orange-400 to-red-500"
+      },
+      {
+        "id": 14,
+        "title": "A Year on Neptune",
+        "text": "One year on Neptune lasts for 165 Earth years. Since its discovery in 1846, it has only completed one full orbit around the sun.",
+        "icon": "Orbit",
+        "color": "from-blue-600 to-blue-800"
+      },
+      {
+        "id": 15,
+        "title": "The Mysterious Planet Nine",
+        "text": "Scientists have found evidence of a giant, undiscovered planet orbiting far beyond Neptune. They call it 'Planet Nine', and the hunt to find it is on!",
+        "icon": "Search",
+        "color": "from-blue-700 to-indigo-800"
+      }
+    ]
+  }
